@@ -1,0 +1,62 @@
+[
+  {
+    "name": "ISTQB CTFL v4.0.1",
+    "scope": "Fundamentos, SDLC, pruebas estáticas, análisis y diseño, gestión y herramientas",
+    "url": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/"
+  },
+  {
+    "name": "ISO/IEC/IEEE 29119",
+    "scope": "Procesos, documentación y técnicas de pruebas",
+    "url": "https://www.iso.org/standard/79428.html"
+  },
+  {
+    "name": "ISO/IEC 25010",
+    "scope": "Modelo de calidad de producto",
+    "url": "https://www.iso.org/standard/78176.html"
+  },
+  {
+    "name": "OWASP ASVS",
+    "scope": "Requisitos verificables de seguridad web",
+    "url": "https://owasp.org/www-project-application-security-verification-standard/"
+  },
+  {
+    "name": "OWASP WSTG",
+    "scope": "Guía de pruebas de seguridad web",
+    "url": "https://owasp.org/www-project-web-security-testing-guide/"
+  },
+  {
+    "name": "OWASP API Security Top 10",
+    "scope": "Riesgos prioritarios en APIs",
+    "url": "https://owasp.org/API-Security/"
+  },
+  {
+    "name": "OWASP MASVS / MASTG",
+    "scope": "Verificación y testing mobile",
+    "url": "https://mas.owasp.org/"
+  },
+  {
+    "name": "WCAG 2.2",
+    "scope": "Accesibilidad web",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  {
+    "name": "NIST SSDF SP 800-218",
+    "scope": "Prácticas de desarrollo seguro",
+    "url": "https://csrc.nist.gov/publications/detail/sp/800-218/final"
+  },
+  {
+    "name": "CIS Benchmarks",
+    "scope": "Hardening de plataformas",
+    "url": "https://www.cisecurity.org/cis-benchmarks"
+  },
+  {
+    "name": "Google SRE",
+    "scope": "SLO, error budgets y confiabilidad",
+    "url": "https://sre.google/books/"
+  },
+  {
+    "name": "DORA",
+    "scope": "Métricas de entrega y operación",
+    "url": "https://dora.dev/"
+  }
+]

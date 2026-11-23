@@ -1,0 +1,3828 @@
+[
+  {
+    "id": "TC-001",
+    "category": "web-frontend",
+    "title": "Navegación crítica y rutas protegidas",
+    "level": "Sistema",
+    "types": [
+      "Funcional",
+      "Regresión"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Playwright",
+      "Cypress",
+      "Selenium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "web-frontend",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-002",
+    "category": "web-frontend",
+    "title": "Validación de formularios y límites",
+    "level": "Componente",
+    "types": [
+      "Funcional"
+    ],
+    "technique": "Partición de equivalencia",
+    "tools": [
+      "Playwright",
+      "Cypress",
+      "Selenium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "web-frontend",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-003",
+    "category": "web-frontend",
+    "title": "Compatibilidad responsive",
+    "level": "Sistema",
+    "types": [
+      "Compatibilidad"
+    ],
+    "technique": "Pruebas combinatorias",
+    "tools": [
+      "Playwright",
+      "Cypress",
+      "Selenium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "web-frontend",
+      "compatibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-004",
+    "category": "web-frontend",
+    "title": "Gestión de sesión y expiración",
+    "level": "Sistema",
+    "types": [
+      "Seguridad",
+      "Funcional"
+    ],
+    "technique": "Tabla de decisión",
+    "tools": [
+      "Playwright",
+      "Cypress",
+      "Selenium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "web-frontend",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-005",
+    "category": "web-frontend",
+    "title": "Errores de red y reintentos",
+    "level": "Integración",
+    "types": [
+      "Resiliencia"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Playwright",
+      "Cypress",
+      "Selenium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "web-frontend",
+      "resiliencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-006",
+    "category": "web-frontend",
+    "title": "Renderizado con datos vacíos",
+    "level": "Sistema",
+    "types": [
+      "Funcional"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "Playwright",
+      "Cypress",
+      "Selenium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "web-frontend",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-007",
+    "category": "web-frontend",
+    "title": "Flujo E2E de negocio",
+    "level": "Aceptación",
+    "types": [
+      "E2E"
+    ],
+    "technique": "Caso de uso",
+    "tools": [
+      "Playwright",
+      "Cypress",
+      "Selenium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "web-frontend",
+      "e2e",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-008",
+    "category": "web-frontend",
+    "title": "CSP, headers y DOM XSS",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Error guessing",
+    "tools": [
+      "Playwright",
+      "Cypress",
+      "Selenium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Alto",
+    "tags": [
+      "web-frontend",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-009",
+    "category": "api",
+    "title": "Contrato OpenAPI y esquema",
+    "level": "Integración",
+    "types": [
+      "Contrato"
+    ],
+    "technique": "Pruebas basadas en especificación",
+    "tools": [
+      "Karate",
+      "Postman/Newman",
+      "REST Assured"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "api",
+      "contrato",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-010",
+    "category": "api",
+    "title": "Autenticación OAuth2/OIDC/JWT",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Tabla de decisión",
+    "tools": [
+      "Karate",
+      "Postman/Newman",
+      "REST Assured"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "api",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-011",
+    "category": "api",
+    "title": "Autorización por objeto BOLA",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Caso de abuso",
+    "tools": [
+      "Karate",
+      "Postman/Newman",
+      "REST Assured"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "api",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-012",
+    "category": "api",
+    "title": "Idempotencia en operaciones",
+    "level": "Integración",
+    "types": [
+      "Funcional",
+      "Resiliencia"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Karate",
+      "Postman/Newman",
+      "REST Assured"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "api",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-013",
+    "category": "api",
+    "title": "Paginación, filtros y orden",
+    "level": "Integración",
+    "types": [
+      "Funcional"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "Karate",
+      "Postman/Newman",
+      "REST Assured"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "api",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-014",
+    "category": "api",
+    "title": "Rate limiting y cuotas",
+    "level": "Sistema",
+    "types": [
+      "Rendimiento",
+      "Seguridad"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "Karate",
+      "Postman/Newman",
+      "REST Assured"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "api",
+      "rendimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-015",
+    "category": "api",
+    "title": "Errores 4xx/5xx consistentes",
+    "level": "Integración",
+    "types": [
+      "Negativa"
+    ],
+    "technique": "Partición de equivalencia",
+    "tools": [
+      "Karate",
+      "Postman/Newman",
+      "REST Assured"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "api",
+      "negativa",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-016",
+    "category": "api",
+    "title": "REST, SOAP, GraphQL y webhooks",
+    "level": "Sistema",
+    "types": [
+      "Compatibilidad"
+    ],
+    "technique": "Pruebas combinatorias",
+    "tools": [
+      "Karate",
+      "Postman/Newman",
+      "REST Assured"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "api",
+      "compatibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-017",
+    "category": "backend",
+    "title": "Reglas de dominio unitarias",
+    "level": "Componente",
+    "types": [
+      "Funcional"
+    ],
+    "technique": "Tabla de decisión",
+    "tools": [
+      "JUnit",
+      "pytest",
+      "xUnit"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "backend",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-018",
+    "category": "backend",
+    "title": "Integración entre microservicios",
+    "level": "Integración",
+    "types": [
+      "Funcional"
+    ],
+    "technique": "Caso de uso",
+    "tools": [
+      "JUnit",
+      "pytest",
+      "xUnit"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "backend",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-019",
+    "category": "backend",
+    "title": "Timeout, retry y circuit breaker",
+    "level": "Sistema",
+    "types": [
+      "Resiliencia"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "JUnit",
+      "pytest",
+      "xUnit"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "backend",
+      "resiliencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-020",
+    "category": "backend",
+    "title": "Concurrencia y race conditions",
+    "level": "Sistema",
+    "types": [
+      "Rendimiento"
+    ],
+    "technique": "Error guessing",
+    "tools": [
+      "JUnit",
+      "pytest",
+      "xUnit"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "backend",
+      "rendimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-021",
+    "category": "backend",
+    "title": "Colas, eventos y entrega duplicada",
+    "level": "Integración",
+    "types": [
+      "Resiliencia"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "JUnit",
+      "pytest",
+      "xUnit"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "backend",
+      "resiliencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-022",
+    "category": "backend",
+    "title": "Cache hit, miss e invalidación",
+    "level": "Integración",
+    "types": [
+      "Funcional"
+    ],
+    "technique": "Tabla de decisión",
+    "tools": [
+      "JUnit",
+      "pytest",
+      "xUnit"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "backend",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-023",
+    "category": "backend",
+    "title": "Feature flags y rollback",
+    "level": "Sistema",
+    "types": [
+      "Regresión"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "JUnit",
+      "pytest",
+      "xUnit"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "backend",
+      "regresión",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-024",
+    "category": "backend",
+    "title": "Observabilidad, logs y trazas",
+    "level": "Sistema",
+    "types": [
+      "Operabilidad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "JUnit",
+      "pytest",
+      "xUnit"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "backend",
+      "operabilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-025",
+    "category": "database",
+    "title": "CRUD e integridad referencial",
+    "level": "Integración",
+    "types": [
+      "Funcional"
+    ],
+    "technique": "Tabla de decisión",
+    "tools": [
+      "SQL",
+      "tSQLt",
+      "pgTAP"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "database",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-026",
+    "category": "database",
+    "title": "Transacciones y rollback",
+    "level": "Integración",
+    "types": [
+      "Recuperación"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "SQL",
+      "tSQLt",
+      "pgTAP"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "database",
+      "recuperación",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-027",
+    "category": "database",
+    "title": "Migración y downgrade de esquema",
+    "level": "Sistema",
+    "types": [
+      "Mantenimiento"
+    ],
+    "technique": "Caso de uso",
+    "tools": [
+      "SQL",
+      "tSQLt",
+      "pgTAP"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "database",
+      "mantenimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-028",
+    "category": "database",
+    "title": "Datos vacíos y volumen extremo",
+    "level": "Sistema",
+    "types": [
+      "Rendimiento"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "SQL",
+      "tSQLt",
+      "pgTAP"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "database",
+      "rendimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-029",
+    "category": "database",
+    "title": "Deadlocks y bloqueos",
+    "level": "Sistema",
+    "types": [
+      "Concurrencia"
+    ],
+    "technique": "Error guessing",
+    "tools": [
+      "SQL",
+      "tSQLt",
+      "pgTAP"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "database",
+      "concurrencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-030",
+    "category": "database",
+    "title": "Índices y planes de ejecución",
+    "level": "Sistema",
+    "types": [
+      "Rendimiento"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "SQL",
+      "tSQLt",
+      "pgTAP"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "database",
+      "rendimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-031",
+    "category": "database",
+    "title": "Enmascaramiento y datos sensibles",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "SQL",
+      "tSQLt",
+      "pgTAP"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Alto",
+    "tags": [
+      "database",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-032",
+    "category": "database",
+    "title": "Backup, restore y consistencia",
+    "level": "Aceptación",
+    "types": [
+      "Recuperación"
+    ],
+    "technique": "Caso de uso",
+    "tools": [
+      "SQL",
+      "tSQLt",
+      "pgTAP"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Alto",
+    "tags": [
+      "database",
+      "recuperación",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-033",
+    "category": "mobile",
+    "title": "Instalación, actualización y rollback",
+    "level": "Sistema",
+    "types": [
+      "Compatibilidad"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Appium",
+      "Maestro",
+      "Espresso"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "mobile",
+      "compatibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-034",
+    "category": "mobile",
+    "title": "Permisos de cámara, ubicación y archivos",
+    "level": "Sistema",
+    "types": [
+      "Funcional",
+      "Privacidad"
+    ],
+    "technique": "Tabla de decisión",
+    "tools": [
+      "Appium",
+      "Maestro",
+      "Espresso"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "mobile",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-035",
+    "category": "mobile",
+    "title": "Offline, latencia y reconexión",
+    "level": "Sistema",
+    "types": [
+      "Resiliencia"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Appium",
+      "Maestro",
+      "Espresso"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "mobile",
+      "resiliencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-036",
+    "category": "mobile",
+    "title": "Rotación, background y deep links",
+    "level": "Sistema",
+    "types": [
+      "Usabilidad"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Appium",
+      "Maestro",
+      "Espresso"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "mobile",
+      "usabilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-037",
+    "category": "mobile",
+    "title": "Secure storage y datos locales",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "Appium",
+      "Maestro",
+      "Espresso"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "mobile",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-038",
+    "category": "mobile",
+    "title": "TLS, pinning y proxy hostil",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Caso de abuso",
+    "tools": [
+      "Appium",
+      "Maestro",
+      "Espresso"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "mobile",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-039",
+    "category": "mobile",
+    "title": "Biometría y fallback",
+    "level": "Sistema",
+    "types": [
+      "Seguridad",
+      "Funcional"
+    ],
+    "technique": "Tabla de decisión",
+    "tools": [
+      "Appium",
+      "Maestro",
+      "Espresso"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Alto",
+    "tags": [
+      "mobile",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-040",
+    "category": "mobile",
+    "title": "Android/iOS y matriz de dispositivos",
+    "level": "Sistema",
+    "types": [
+      "Compatibilidad"
+    ],
+    "technique": "Pruebas combinatorias",
+    "tools": [
+      "Appium",
+      "Maestro",
+      "Espresso"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "mobile",
+      "compatibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-041",
+    "category": "performance",
+    "title": "Baseline de latencia y throughput",
+    "level": "Sistema",
+    "types": [
+      "Rendimiento"
+    ],
+    "technique": "Benchmark",
+    "tools": [
+      "k6",
+      "JMeter",
+      "Gatling"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "performance",
+      "rendimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-042",
+    "category": "performance",
+    "title": "Carga esperada sostenida",
+    "level": "Sistema",
+    "types": [
+      "Carga"
+    ],
+    "technique": "Modelo operacional",
+    "tools": [
+      "k6",
+      "JMeter",
+      "Gatling"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "performance",
+      "carga",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-043",
+    "category": "performance",
+    "title": "Estrés hasta punto de quiebre",
+    "level": "Sistema",
+    "types": [
+      "Estrés"
+    ],
+    "technique": "Exploratoria",
+    "tools": [
+      "k6",
+      "JMeter",
+      "Gatling"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "performance",
+      "estrés",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-044",
+    "category": "performance",
+    "title": "Spike de tráfico",
+    "level": "Sistema",
+    "types": [
+      "Spike"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "k6",
+      "JMeter",
+      "Gatling"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "performance",
+      "spike",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-045",
+    "category": "performance",
+    "title": "Soak de larga duración",
+    "level": "Sistema",
+    "types": [
+      "Resistencia"
+    ],
+    "technique": "Modelo operacional",
+    "tools": [
+      "k6",
+      "JMeter",
+      "Gatling"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "performance",
+      "resistencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-046",
+    "category": "performance",
+    "title": "Escalabilidad horizontal",
+    "level": "Sistema",
+    "types": [
+      "Escalabilidad"
+    ],
+    "technique": "Benchmark",
+    "tools": [
+      "k6",
+      "JMeter",
+      "Gatling"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "performance",
+      "escalabilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-047",
+    "category": "performance",
+    "title": "Capacidad por dependencia",
+    "level": "Integración",
+    "types": [
+      "Rendimiento"
+    ],
+    "technique": "Modelo operacional",
+    "tools": [
+      "k6",
+      "JMeter",
+      "Gatling"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "performance",
+      "rendimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-048",
+    "category": "performance",
+    "title": "Presupuesto frontend Web Vitals",
+    "level": "Sistema",
+    "types": [
+      "Rendimiento UX"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "k6",
+      "JMeter",
+      "Gatling"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "performance",
+      "rendimiento ux",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-049",
+    "category": "security",
+    "title": "SAST y secretos en código",
+    "level": "Componente",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Análisis estático",
+    "tools": [
+      "OWASP ZAP",
+      "HCL AppScan",
+      "Semgrep"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "security",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-050",
+    "category": "security",
+    "title": "SCA, CVE, EPSS y SBOM",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Análisis de composición",
+    "tools": [
+      "OWASP ZAP",
+      "HCL AppScan",
+      "Semgrep"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "security",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-051",
+    "category": "security",
+    "title": "DAST autenticado",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Caja negra",
+    "tools": [
+      "OWASP ZAP",
+      "HCL AppScan",
+      "Semgrep"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "security",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-052",
+    "category": "security",
+    "title": "Fuzzing de entradas",
+    "level": "Sistema",
+    "types": [
+      "Seguridad",
+      "Robustez"
+    ],
+    "technique": "Fuzzing",
+    "tools": [
+      "OWASP ZAP",
+      "HCL AppScan",
+      "Semgrep"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "security",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-053",
+    "category": "security",
+    "title": "Autenticación y recuperación de cuenta",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Caso de abuso",
+    "tools": [
+      "OWASP ZAP",
+      "HCL AppScan",
+      "Semgrep"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "security",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-054",
+    "category": "security",
+    "title": "Autorización y mínimo privilegio",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Matriz de acceso",
+    "tools": [
+      "OWASP ZAP",
+      "HCL AppScan",
+      "Semgrep"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "security",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-055",
+    "category": "security",
+    "title": "Cifrado en tránsito y reposo",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "OWASP ZAP",
+      "HCL AppScan",
+      "Semgrep"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Alto",
+    "tags": [
+      "security",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-056",
+    "category": "security",
+    "title": "Logging sin datos sensibles",
+    "level": "Sistema",
+    "types": [
+      "Seguridad",
+      "Privacidad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "OWASP ZAP",
+      "HCL AppScan",
+      "Semgrep"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Alto",
+    "tags": [
+      "security",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-057",
+    "category": "accessibility",
+    "title": "Navegación completa por teclado",
+    "level": "Sistema",
+    "types": [
+      "Accesibilidad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "axe-core",
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "accessibility",
+      "accesibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-058",
+    "category": "accessibility",
+    "title": "Contraste y estados visuales",
+    "level": "Sistema",
+    "types": [
+      "Accesibilidad"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "axe-core",
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "accessibility",
+      "accesibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-059",
+    "category": "accessibility",
+    "title": "Semántica y lector de pantalla",
+    "level": "Sistema",
+    "types": [
+      "Accesibilidad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "axe-core",
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "accessibility",
+      "accesibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-060",
+    "category": "accessibility",
+    "title": "Zoom 200% y reflow",
+    "level": "Sistema",
+    "types": [
+      "Accesibilidad"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "axe-core",
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "accessibility",
+      "accesibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-061",
+    "category": "accessibility",
+    "title": "Foco visible y orden lógico",
+    "level": "Sistema",
+    "types": [
+      "Accesibilidad"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "axe-core",
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "accessibility",
+      "accesibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-062",
+    "category": "accessibility",
+    "title": "Errores de formulario accesibles",
+    "level": "Sistema",
+    "types": [
+      "Accesibilidad"
+    ],
+    "technique": "Caso de uso",
+    "tools": [
+      "axe-core",
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "accessibility",
+      "accesibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-063",
+    "category": "accessibility",
+    "title": "Movimiento reducido",
+    "level": "Sistema",
+    "types": [
+      "Accesibilidad"
+    ],
+    "technique": "Tabla de decisión",
+    "tools": [
+      "axe-core",
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "accessibility",
+      "accesibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-064",
+    "category": "accessibility",
+    "title": "Idioma, títulos y landmarks",
+    "level": "Sistema",
+    "types": [
+      "Accesibilidad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "axe-core",
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "accessibility",
+      "accesibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-065",
+    "category": "data-ai",
+    "title": "Completitud y nulidad de datos",
+    "level": "Integración",
+    "types": [
+      "Calidad de datos"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "Great Expectations",
+      "Soda",
+      "dbt tests"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "data-ai",
+      "calidad de datos",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-066",
+    "category": "data-ai",
+    "title": "Unicidad y duplicados",
+    "level": "Integración",
+    "types": [
+      "Calidad de datos"
+    ],
+    "technique": "Partición de equivalencia",
+    "tools": [
+      "Great Expectations",
+      "Soda",
+      "dbt tests"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "data-ai",
+      "calidad de datos",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-067",
+    "category": "data-ai",
+    "title": "Exactitud de transformaciones ETL",
+    "level": "Sistema",
+    "types": [
+      "Datos"
+    ],
+    "technique": "Caso de uso",
+    "tools": [
+      "Great Expectations",
+      "Soda",
+      "dbt tests"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "data-ai",
+      "datos",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-068",
+    "category": "data-ai",
+    "title": "Freshness y SLA del pipeline",
+    "level": "Sistema",
+    "types": [
+      "Operabilidad"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "Great Expectations",
+      "Soda",
+      "dbt tests"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "data-ai",
+      "operabilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-069",
+    "category": "data-ai",
+    "title": "Schema drift y compatibilidad",
+    "level": "Integración",
+    "types": [
+      "Contrato"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Great Expectations",
+      "Soda",
+      "dbt tests"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "data-ai",
+      "contrato",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-070",
+    "category": "data-ai",
+    "title": "Sesgo y desempeño por segmento",
+    "level": "Sistema",
+    "types": [
+      "IA responsable"
+    ],
+    "technique": "Partición de equivalencia",
+    "tools": [
+      "Great Expectations",
+      "Soda",
+      "dbt tests"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "data-ai",
+      "ia responsable",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-071",
+    "category": "data-ai",
+    "title": "Drift de datos/modelo",
+    "level": "Sistema",
+    "types": [
+      "IA",
+      "Monitoreo"
+    ],
+    "technique": "Benchmark",
+    "tools": [
+      "Great Expectations",
+      "Soda",
+      "dbt tests"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "data-ai",
+      "ia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-072",
+    "category": "data-ai",
+    "title": "Prompt injection y salida insegura",
+    "level": "Sistema",
+    "types": [
+      "Seguridad IA"
+    ],
+    "technique": "Caso de abuso",
+    "tools": [
+      "Great Expectations",
+      "Soda",
+      "dbt tests"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "data-ai",
+      "seguridad ia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-073",
+    "category": "infrastructure",
+    "title": "Validación estática de IaC",
+    "level": "Componente",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Análisis estático",
+    "tools": [
+      "Terratest",
+      "Checkov",
+      "InSpec"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "infrastructure",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-074",
+    "category": "infrastructure",
+    "title": "Plan/apply/destroy idempotente",
+    "level": "Sistema",
+    "types": [
+      "Infraestructura"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Terratest",
+      "Checkov",
+      "InSpec"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "infrastructure",
+      "infraestructura",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-075",
+    "category": "infrastructure",
+    "title": "Políticas cloud y least privilege",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Matriz de acceso",
+    "tools": [
+      "Terratest",
+      "Checkov",
+      "InSpec"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "infrastructure",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-076",
+    "category": "infrastructure",
+    "title": "Hardening CIS y configuración",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "Terratest",
+      "Checkov",
+      "InSpec"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "infrastructure",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-077",
+    "category": "infrastructure",
+    "title": "Alta disponibilidad y failover",
+    "level": "Aceptación",
+    "types": [
+      "Resiliencia"
+    ],
+    "technique": "Caso de uso",
+    "tools": [
+      "Terratest",
+      "Checkov",
+      "InSpec"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "infrastructure",
+      "resiliencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-078",
+    "category": "infrastructure",
+    "title": "Chaos de red/servicio",
+    "level": "Sistema",
+    "types": [
+      "Resiliencia"
+    ],
+    "technique": "Exploratoria",
+    "tools": [
+      "Terratest",
+      "Checkov",
+      "InSpec"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "infrastructure",
+      "resiliencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-079",
+    "category": "infrastructure",
+    "title": "Rotación de secretos y certificados",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Terratest",
+      "Checkov",
+      "InSpec"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Alto",
+    "tags": [
+      "infrastructure",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-080",
+    "category": "infrastructure",
+    "title": "Costos y límites de servicio",
+    "level": "Sistema",
+    "types": [
+      "FinOps"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "Terratest",
+      "Checkov",
+      "InSpec"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "infrastructure",
+      "finops",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-081",
+    "category": "desktop",
+    "title": "Instalación silenciosa y desinstalación",
+    "level": "Sistema",
+    "types": [
+      "Compatibilidad"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "WinAppDriver",
+      "FlaUI",
+      "Appium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "desktop",
+      "compatibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-082",
+    "category": "desktop",
+    "title": "Actualización automática y rollback",
+    "level": "Sistema",
+    "types": [
+      "Mantenimiento"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "WinAppDriver",
+      "FlaUI",
+      "Appium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "desktop",
+      "mantenimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-083",
+    "category": "desktop",
+    "title": "Archivos, impresión y portapapeles",
+    "level": "Sistema",
+    "types": [
+      "Funcional"
+    ],
+    "technique": "Caso de uso",
+    "tools": [
+      "WinAppDriver",
+      "FlaUI",
+      "Appium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "desktop",
+      "funcional",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-084",
+    "category": "desktop",
+    "title": "DPI, resolución y multimonitor",
+    "level": "Sistema",
+    "types": [
+      "Compatibilidad"
+    ],
+    "technique": "Pruebas combinatorias",
+    "tools": [
+      "WinAppDriver",
+      "FlaUI",
+      "Appium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "desktop",
+      "compatibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-085",
+    "category": "desktop",
+    "title": "Privilegios estándar vs administrador",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Matriz de acceso",
+    "tools": [
+      "WinAppDriver",
+      "FlaUI",
+      "Appium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "desktop",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-086",
+    "category": "desktop",
+    "title": "Recuperación tras cierre inesperado",
+    "level": "Sistema",
+    "types": [
+      "Resiliencia"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "WinAppDriver",
+      "FlaUI",
+      "Appium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "desktop",
+      "resiliencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-087",
+    "category": "desktop",
+    "title": "Integración con SO y antivirus",
+    "level": "Sistema",
+    "types": [
+      "Compatibilidad"
+    ],
+    "technique": "Checklist",
+    "tools": [
+      "WinAppDriver",
+      "FlaUI",
+      "Appium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "desktop",
+      "compatibilidad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-088",
+    "category": "desktop",
+    "title": "Consumo de CPU, RAM y disco",
+    "level": "Sistema",
+    "types": [
+      "Rendimiento"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "WinAppDriver",
+      "FlaUI",
+      "Appium"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "desktop",
+      "rendimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-089",
+    "category": "iot",
+    "title": "Conectividad MQTT y reconexión",
+    "level": "Integración",
+    "types": [
+      "Resiliencia"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "MQTTX",
+      "Toxiproxy",
+      "Wireshark"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "iot",
+      "resiliencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-090",
+    "category": "iot",
+    "title": "QoS, duplicados y orden",
+    "level": "Integración",
+    "types": [
+      "Mensajería"
+    ],
+    "technique": "Tabla de decisión",
+    "tools": [
+      "MQTTX",
+      "Toxiproxy",
+      "Wireshark"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "iot",
+      "mensajería",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-091",
+    "category": "iot",
+    "title": "Firmware update y rollback",
+    "level": "Sistema",
+    "types": [
+      "Mantenimiento"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "MQTTX",
+      "Toxiproxy",
+      "Wireshark"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "iot",
+      "mantenimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-092",
+    "category": "iot",
+    "title": "Telemetría inválida y fuera de rango",
+    "level": "Sistema",
+    "types": [
+      "Robustez"
+    ],
+    "technique": "Valores límite",
+    "tools": [
+      "MQTTX",
+      "Toxiproxy",
+      "Wireshark"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "iot",
+      "robustez",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-093",
+    "category": "iot",
+    "title": "Intermitencia, pérdida y latencia",
+    "level": "Sistema",
+    "types": [
+      "Resiliencia"
+    ],
+    "technique": "Exploratoria",
+    "tools": [
+      "MQTTX",
+      "Toxiproxy",
+      "Wireshark"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Medio",
+    "tags": [
+      "iot",
+      "resiliencia",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-094",
+    "category": "iot",
+    "title": "Identidad y certificados del dispositivo",
+    "level": "Sistema",
+    "types": [
+      "Seguridad"
+    ],
+    "technique": "Matriz de acceso",
+    "tools": [
+      "MQTTX",
+      "Toxiproxy",
+      "Wireshark"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "iot",
+      "seguridad",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-095",
+    "category": "iot",
+    "title": "Consumo energético",
+    "level": "Sistema",
+    "types": [
+      "Rendimiento"
+    ],
+    "technique": "Benchmark",
+    "tools": [
+      "MQTTX",
+      "Toxiproxy",
+      "Wireshark"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "iot",
+      "rendimiento",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-096",
+    "category": "iot",
+    "title": "Operación degradada y modo seguro",
+    "level": "Aceptación",
+    "types": [
+      "Safety",
+      "Resiliencia"
+    ],
+    "technique": "Caso de uso",
+    "tools": [
+      "MQTTX",
+      "Toxiproxy",
+      "Wireshark"
+    ],
+    "preconditions": "Ambiente controlado, datos de prueba trazables y criterios de aceptación definidos.",
+    "steps": [
+      "Preparar datos y estado inicial",
+      "Ejecutar camino principal",
+      "Aplicar condición límite o negativa",
+      "Capturar evidencia y telemetría",
+      "Restaurar el estado"
+    ],
+    "expected": "El comportamiento cumple el contrato; errores son controlados; no hay pérdida de datos; queda evidencia reproducible.",
+    "automation": "Media",
+    "risk": "Medio",
+    "tags": [
+      "iot",
+      "safety",
+      "shift-left"
+    ],
+    "standard": "ISTQB CTFL 4.0"
+  },
+  {
+    "id": "TC-097",
+    "category": "cross",
+    "title": "Smoke post-deploy",
+    "level": "Aceptación",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "ci/cd",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-098",
+    "category": "cross",
+    "title": "Regresión basada en riesgo",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "istqb",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-099",
+    "category": "cross",
+    "title": "Pruebas exploratorias con charter",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "sbtm",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-100",
+    "category": "cross",
+    "title": "Revisión estática de requisitos",
+    "level": "Componente",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "shift-left",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-101",
+    "category": "cross",
+    "title": "Trazabilidad requisito-prueba-defecto",
+    "level": "Gestión",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "iso/iec/ieee 29119",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-102",
+    "category": "cross",
+    "title": "Mutation testing",
+    "level": "Componente",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "calidad de pruebas",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-103",
+    "category": "cross",
+    "title": "Contract testing consumidor-proveedor",
+    "level": "Integración",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "microservicios",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-104",
+    "category": "cross",
+    "title": "Visual regression",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "frontend",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-105",
+    "category": "cross",
+    "title": "Canary verification",
+    "level": "Aceptación",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "sre",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-106",
+    "category": "cross",
+    "title": "Blue/green rollback",
+    "level": "Aceptación",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "devops",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-107",
+    "category": "cross",
+    "title": "Disaster recovery exercise",
+    "level": "Aceptación",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "bcp/drp",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-108",
+    "category": "cross",
+    "title": "Observabilidad sintética",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "sre",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-109",
+    "category": "cross",
+    "title": "Privacidad y minimización de datos",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "privacy by design",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-110",
+    "category": "cross",
+    "title": "Internacionalización y zona horaria",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "i18n",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-111",
+    "category": "cross",
+    "title": "Pruebas de compatibilidad de navegador",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "compatibilidad",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-112",
+    "category": "cross",
+    "title": "Pruebas de aceptación de usuario",
+    "level": "Aceptación",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "uat",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-113",
+    "category": "cross",
+    "title": "Gestión de defectos y severidad",
+    "level": "Gestión",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "istqb",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-114",
+    "category": "cross",
+    "title": "Evidencia y auditabilidad",
+    "level": "Gestión",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "compliance",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-115",
+    "category": "cross",
+    "title": "Quality gate de pipeline",
+    "level": "Gestión",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "devsecops",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-116",
+    "category": "cross",
+    "title": "Rollback de base y aplicación",
+    "level": "Aceptación",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "release",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-117",
+    "category": "cross",
+    "title": "Pruebas de terceros y contingencia",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "supply chain",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-118",
+    "category": "cross",
+    "title": "A/B experiment guardrails",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "experimentación",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-119",
+    "category": "cross",
+    "title": "Monitoreo de producción shift-right",
+    "level": "Aceptación",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "sre",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-120",
+    "category": "cross",
+    "title": "Retest de vulnerabilidades",
+    "level": "Sistema",
+    "types": [
+      "Transversal"
+    ],
+    "technique": "Basada en riesgo",
+    "tools": [
+      "GitHub Actions",
+      "Allure",
+      "DefectDojo"
+    ],
+    "preconditions": "Criterios, responsables y evidencia definidos.",
+    "steps": [
+      "Definir alcance y oráculo",
+      "Preparar ambiente",
+      "Ejecutar prueba",
+      "Comparar con umbrales",
+      "Registrar decisión"
+    ],
+    "expected": "Resultado trazable, repetible y asociado a un criterio de liberación.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "appsec",
+      "governance"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  }
+]
