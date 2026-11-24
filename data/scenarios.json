@@ -3824,5 +3824,117 @@
       "governance"
     ],
     "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-121",
+    "category": "backend",
+    "title": "Conciliación de movimientos bancarios",
+    "level": "Integración",
+    "types": [
+      "Funcional",
+      "Calidad de datos",
+      "Regresión"
+    ],
+    "technique": "Partición de equivalencia",
+    "tools": [
+      "Python",
+      "pytest",
+      "SQL",
+      "Postman/Newman"
+    ],
+    "preconditions": "Ambiente de pruebas aislado, registros sintéticos disponibles, extracto bancario simulado y movimientos internos previamente registrados. Las reglas de conciliación deben estar definidas.",
+    "steps": [
+      "Preparar movimientos internos y extractos bancarios sintéticos con referencias, fechas, importes y monedas conocidas.",
+      "Ejecutar el proceso de conciliación para un conjunto de movimientos coincidentes.",
+      "Incluir movimientos sin correspondencia, referencias duplicadas y diferencias de importe.",
+      "Verificar los criterios de coincidencia y las tolerancias de fecha e importe configuradas.",
+      "Consultar los resultados y las evidencias de conciliación generadas."
+    ],
+    "expected": "Los movimientos coincidentes se concilian una sola vez; los movimientos faltantes, duplicados o con diferencias se identifican correctamente; los totales conciliados son consistentes y queda trazabilidad de los resultados.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "financiero",
+      "conciliacion",
+      "integridad",
+      "backend"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-122",
+    "category": "backend",
+    "title": "Reversión de transacciones financieras",
+    "level": "Integración",
+    "types": [
+      "Funcional",
+      "Negativa",
+      "Regresión",
+      "Recuperación"
+    ],
+    "technique": "Transición de estados",
+    "tools": [
+      "Postman/Newman",
+      "REST Assured",
+      "pytest",
+      "SQL"
+    ],
+    "preconditions": "Ambiente de pruebas aislado, transacciones sintéticas en diferentes estados y reglas de reversión definidas. Debe existir trazabilidad entre la transacción original y su reversión.",
+    "steps": [
+      "Registrar una transacción de prueba en un estado que permita su reversión.",
+      "Ejecutar la operación de reversión y consultar el estado resultante.",
+      "Verificar que se genere el movimiento compensatorio correspondiente.",
+      "Intentar revertir nuevamente la misma transacción.",
+      "Intentar revertir una transacción en un estado no permitido.",
+      "Consultar los registros contables y la auditoría de las operaciones."
+    ],
+    "expected": "La reversión se ejecuta únicamente cuando las reglas de negocio lo permiten; se genera un movimiento compensatorio trazable; las solicitudes duplicadas no producen reversiones adicionales y las operaciones no permitidas son rechazadas sin alterar los saldos.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "financiero",
+      "reversion",
+      "transacciones",
+      "idempotencia"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
+  },
+  {
+    "id": "TC-123",
+    "category": "database",
+    "title": "Consistencia de registros débito y crédito",
+    "level": "Integración",
+    "types": [
+      "Funcional",
+      "Integridad de datos",
+      "Concurrencia",
+      "Recuperación"
+    ],
+    "technique": "Análisis de composición",
+    "tools": [
+      "SQL",
+      "pytest",
+      "JUnit"
+    ],
+    "preconditions": "Base de datos de pruebas aislada, operaciones contables sintéticas y reglas de contabilización definidas. Se dispone de consultas de verificación de saldos y movimientos.",
+    "steps": [
+      "Preparar una operación financiera sintética que genere registros de débito y crédito.",
+      "Ejecutar la contabilización y consultar los movimientos generados.",
+      "Verificar que la suma de débitos coincida con la suma de créditos para la misma operación y moneda.",
+      "Simular un fallo durante la contabilización para verificar el comportamiento transaccional.",
+      "Ejecutar operaciones concurrentes controladas y comprobar la integridad de los registros.",
+      "Consultar nuevamente los saldos y movimientos después de cada escenario."
+    ],
+    "expected": "Cada operación contabilizada mantiene el equilibrio entre débitos y créditos; no existen registros parciales ante fallos; las operaciones concurrentes no generan inconsistencias y los saldos reflejan correctamente los movimientos confirmados.",
+    "automation": "Alta",
+    "risk": "Alto",
+    "tags": [
+      "financiero",
+      "contabilidad",
+      "debito",
+      "credito",
+      "integridad"
+    ],
+    "standard": "ISTQB / ISO 29119 / DevOps"
   }
 ]
